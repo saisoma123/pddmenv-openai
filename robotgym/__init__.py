@@ -16,19 +16,7 @@ register(
 )
 
 register(
-  id='Dhand-v0',
-  entry_point='robotgym.envs:DhandEnv',  
-  max_episode_steps=1000,
-)
-
-register(
   id='Cube-v0',
   entry_point='robotgym.envs:CubeEnv',
-  max_episode_steps=1000,
-)
-
-register(
-  id='Pencil-v0',
-  entry_point='robotgym.envs:PencilEnv',  
   max_episode_steps=1000,
 )
